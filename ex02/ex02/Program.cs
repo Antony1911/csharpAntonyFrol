@@ -11,7 +11,8 @@ namespace ex02
         static void Main(string[] args)
         {
             //RandomTriple();
-            sumOddIndex();
+            //SumOddIndex();
+            //MaxMinDifference();
         }
 
         //Задача 34: Задайте массив заполненный случайными положительными трёхзначными числами.
@@ -40,7 +41,7 @@ namespace ex02
 
         //Задача 36: Задайте одномерный массив, заполненный случайными числами.
         //Найдите сумму элементов, стоящих на нечётных позициях.
-        static void sumOddIndex()
+        static void SumOddIndex()
         {
             int sumOddIndexValue = 0;
             var random = new Random();
@@ -49,7 +50,7 @@ namespace ex02
             Console.WriteLine("Array: ");
             for (int i = 0; i < array.Length; i++)
             {
-                array[i] = random.Next(1, 101);
+                array[i] = random.Next(-50, 101);
                 Console.Write(array[i] + " ");
 
                 if (i % 2 == 1)
@@ -59,13 +60,27 @@ namespace ex02
             }
             Console.WriteLine();
             Console.WriteLine("sum of odd index: " + sumOddIndexValue);
-
         }
-
 
 
         //Задача 38: Задайте массив вещественных чисел.
         //Найдите разницу между максимальным и минимальным элементов массива.
+        static void MaxMinDifference()
+        {
+            var random = new Random();
+            double[] array = new double[random.Next(4, 10)];
+            //double max, min;
+
+            Console.WriteLine("Array: ");
+            for (int i = 0; i < array.Length; i++)
+            {
+                array[i] = random.Next(10, 100);
+                Console.Write(array[i] + " ");
+            }
+            Console.WriteLine();
+            Console.WriteLine($"max({array.Max()}) - min({array.Min()}) = {array.Max() - array.Min()}");
+        }
+
 
     }
 }
