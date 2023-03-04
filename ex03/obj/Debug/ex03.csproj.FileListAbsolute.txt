@@ -1,0 +1,8 @@
+F:\outproj\csharpAntonyFrol\ex03\bin\Debug\ex03.exe.config
+F:\outproj\csharpAntonyFrol\ex03\bin\Debug\ex03.exe
+F:\outproj\csharpAntonyFrol\ex03\bin\Debug\ex03.pdb
+F:\outproj\csharpAntonyFrol\ex03\obj\Debug\ex03.csproj.AssemblyReference.cache
+F:\outproj\csharpAntonyFrol\ex03\obj\Debug\ex03.csproj.SuggestedBindingRedirects.cache
+F:\outproj\csharpAntonyFrol\ex03\obj\Debug\ex03.csproj.CoreCompileInputs.cache
+F:\outproj\csharpAntonyFrol\ex03\obj\Debug\ex03.exe
+F:\outproj\csharpAntonyFrol\ex03\obj\Debug\ex03.pdb
