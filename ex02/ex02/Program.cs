@@ -10,7 +10,8 @@ namespace ex02
     {
         static void Main(string[] args)
         {
-            RandomTriple();
+            //RandomTriple();
+            sumOddIndex();
         }
 
         //Задача 34: Задайте массив заполненный случайными положительными трёхзначными числами.
@@ -34,7 +35,37 @@ namespace ex02
             }
             Console.WriteLine();
             Console.WriteLine(count + $" <-- times");
+        }
+
+
+        //Задача 36: Задайте одномерный массив, заполненный случайными числами.
+        //Найдите сумму элементов, стоящих на нечётных позициях.
+        static void sumOddIndex()
+        {
+            int sumOddIndexValue = 0;
+            var random = new Random();
+            int[] array = new int[random.Next(4, 10)];
+
+            Console.WriteLine("Array: ");
+            for (int i = 0; i < array.Length; i++)
+            {
+                array[i] = random.Next(1, 101);
+                Console.Write(array[i] + " ");
+
+                if (i % 2 == 1)
+                {
+                    sumOddIndexValue += array[i];
+                }
+            }
+            Console.WriteLine();
+            Console.WriteLine("sum of odd index: " + sumOddIndexValue);
 
         }
+
+
+
+        //Задача 38: Задайте массив вещественных чисел.
+        //Найдите разницу между максимальным и минимальным элементов массива.
+
     }
 }
