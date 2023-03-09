@@ -67,8 +67,9 @@ namespace lesson08
                     {
                         array[i, j, v] = result[count];
                         count++;
-                        Console.WriteLine(array[i, j, v]);
+                        Console.Write(array[i, j, v] + " ");
                     }
+                    Console.WriteLine();
                 }
             }
             return array;
@@ -206,12 +207,12 @@ namespace lesson08
 
         //Задача 60: Сформируйте трёхмерный массив из неповторяющихся двузначных чисел.
         //Напишите программу, которая будет построчно выводить массив, добавляя индексы каждого элемента.
-
         static void ReturnTripleIndex(int n, int m, int k)
         {
             int[,,] array = SetTripleArray(n, m, k);
             //int[,] array = SetDoubleArray(4, 4);
-            //int[,,] = {}
+            //int[,,] array = new int[,,] { { { 1, 2, 3 }, { 4, 5, 6 } }, 
+            //                              { { 7, 8, 9 }, { 10, 11, 12 } } };
 
             for (int firstIndex = array.GetLowerBound(0); firstIndex <= array.GetUpperBound(0); firstIndex++)
             {
@@ -221,12 +222,8 @@ namespace lesson08
                     {
                         Console.WriteLine($"3dIndex : {array.GetValue(firstIndex, secondIndex, thirdIndex)} ({firstIndex},{secondIndex},{thirdIndex})");
                     }
-                        
                 }
             }
-
-
         }
-
     }
 }
