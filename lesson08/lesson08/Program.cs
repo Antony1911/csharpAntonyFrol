@@ -37,19 +37,6 @@ namespace lesson08
                 Console.WriteLine();
             }
             Console.WriteLine("-------------");
-
-
-
-
-
-
-            // Iterate the 2-dimensional array and display its values.
-            //Console.WriteLine("Values of array elements:");
-            //for (int outer = array.GetLowerBound(0); outer <= array.GetUpperBound(0); outer++)
-            //    for (int inner = array.GetLowerBound(1); inner <= array.GetUpperBound(1); inner++)
-            //        Console.WriteLine($"{'\u007b'}{outer}, {inner}{'\u007d'} = {array.GetValue(outer, inner)}");
-
-
             return array;
         }
 
@@ -140,7 +127,6 @@ namespace lesson08
         }
 
 
-
         //Задача 56: Задайте прямоугольный двумерный массив.
         //Напишите программу, которая будет находить строку c наименьшей суммой элементов.
         static void SmallestRow()
@@ -179,7 +165,6 @@ namespace lesson08
         }
 
 
-
         //Задача 58: Задайте две матрицы. Напишите программу, которая будет находить произведение двух матриц.
         static void MultiplyMatrix()
         {
@@ -203,7 +188,6 @@ namespace lesson08
             }
             PrintArray(resultMatrix);
         }
-
 
         //Задача 60: Сформируйте трёхмерный массив из неповторяющихся двузначных чисел.
         //Напишите программу, которая будет построчно выводить массив, добавляя индексы каждого элемента.
