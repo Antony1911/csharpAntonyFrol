@@ -1,0 +1,8 @@
+C:\repo\csharpAntonyFrol\lesson09\lesson09\bin\Debug\lesson09.exe.config
+C:\repo\csharpAntonyFrol\lesson09\lesson09\bin\Debug\lesson09.exe
+C:\repo\csharpAntonyFrol\lesson09\lesson09\bin\Debug\lesson09.pdb
+C:\repo\csharpAntonyFrol\lesson09\lesson09\obj\Debug\lesson09.csproj.AssemblyReference.cache
+C:\repo\csharpAntonyFrol\lesson09\lesson09\obj\Debug\lesson09.csproj.SuggestedBindingRedirects.cache
+C:\repo\csharpAntonyFrol\lesson09\lesson09\obj\Debug\lesson09.csproj.CoreCompileInputs.cache
+C:\repo\csharpAntonyFrol\lesson09\lesson09\obj\Debug\lesson09.exe
+C:\repo\csharpAntonyFrol\lesson09\lesson09\obj\Debug\lesson09.pdb
