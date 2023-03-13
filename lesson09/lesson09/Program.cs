@@ -10,8 +10,16 @@ namespace lesson09
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine(PrintNaturalDigits(2, 10));
-            PrintNaturalDigits(10);
+            //64
+            //PrintNaturalDigits(13);
+
+
+            //66
+            //Console.WriteLine(SumOfSection(4, 10));
+
+
+            //68
+
 
 
         }
@@ -34,6 +42,15 @@ namespace lesson09
 
         //Задача 66: Задайте значения M и N.
         //Напишите программу, которая найдёт сумму натуральных элементов в промежутке от M до N.
+        static int SumOfSection(int n, int m)
+        {
+            if (m == n)
+            {
+                return m;
+            }
+            return m + SumOfSection(n, m - 1);
+        }
+
 
         //Задача 68: Напишите программу вычисления функции Аккермана с помощью рекурсии.
         //Даны два неотрицательных числа m и n.
