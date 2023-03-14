@@ -17,7 +17,7 @@ namespace lesson09
             //Console.WriteLine(SumOfSection(9, 10));
 
             //68
-            Console.WriteLine(AckermanFunction(3, 2));
+            Console.WriteLine(AckermanFunction(4, 1));
 
 
         }
